@@ -75,7 +75,6 @@ Chef 0.10.10+ and Ohai 6.10+ for `platform_family` support.
       }
     )
 
-For additional info, see https://github.com/newrelic-platform/newrelic_passenger_plugin
-
 
 *Based on the newrelic_plugins example plugin recipe*
+http://blog.newrelic.com/2014/02/04/installing-new-relic-plugins-chef-puppet/
