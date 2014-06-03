@@ -6,8 +6,8 @@ description       'Installs New Relic Plugins and Server Monitoring'
 long_description  IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version           '1.0.0'
 
-recipe 'newrelic_plugins::passenger', 'Installs New Relic Passenger Plugin'
-recipe 'newrelic_plugins::server_monitor', 'Installs New Relic Server Monitoring'
+recipe 'newrelic_monitoring::passenger', 'Installs New Relic Passenger Plugin'
+recipe 'newrelic_monitoring::server_monitor', 'Installs New Relic Server Monitoring'
 
 depends 'git'
 
